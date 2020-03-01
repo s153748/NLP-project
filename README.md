@@ -11,4 +11,5 @@ In this paper, word-level language modelling is considered with a simple objecti
 Introduction
 
 Language models have increased in importance as they continuously improve performance in NLP tasks, e.g. by generating coherent and human-like pieces of text. They are used for many purposes such as machine translation, summarization, spelling correction and in text generation which is the area of interest in this paper. RNN’s are especially popular for this task and have been used to generate text in several different domains.
+
 The objective of this paper was to build a word-level LSTM language model that when trained on textual data was able to generate similar text sequences. This was sought accomplished with inspiration from previous research in the field.
