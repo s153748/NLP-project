@@ -1,11 +1,9 @@
-# Deep-Learning-Project
+## 02456 Deep Learning - Natural Language Processing
 
-In this project, three LSMT language models have been trained on each of their data. 
-The model trained on the Penn Treebank data set has been used for comparison reasons and has shown to reach a validation perplexity of 88.2. The same hyperparameters were used for the other data sets, however did not show the desired performance. Importantly, these data sets had no benchmarks.
+***Authors: Julie Maria Petersen & Lise Styve*** <br /> <br />
 
-The data folder holds the data used for text generation, that is storylines for Kim Possible and text from the first three Harry Potter books. 
+### Word-Level Language Modelling Using an LSTM Neural Network
 
-The data for PTB is downloaded from: 
-https://raw.githubusercontent.com/wojzaremba/lstm/master/data/ptb.train.txt
-https://raw.githubusercontent.com/wojzaremba/lstm/master/data/ptb.valid.txt
-https://raw.githubusercontent.com/wojzaremba/lstm/master/data/ptb.test.txt
+Abstract
+
+In this paper, word-level language modelling is considered with a simple objective, which is predicting the next word given the previous words within some text. This Natural Language Processing (NLP) task is approached with supervised learning using a Recurrent Neural Network (RNN) with Long Short-Term Memory (LSTM) cells. The model is sought optimized and regularized using weight decay and dropout. A validation perplexity of 88.2 is achieved on the task specific data set Penn Treebank (PTB). When trained on other data sets, the language model enables to adapt to the style and content of the conditioning text, however the generated sequences are not sufficiently realistic and coherent. This can be due to a continued need for regularization and larger amounts of data.
