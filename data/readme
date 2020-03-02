@@ -1,1 +1,11 @@
 
+The data used for the text generation is:
+
+* Storylines from previous Kim Possible episodes 
+* Text from the first three Harry Potter books
+
+The Penn Treebank data is downloaded from: 
+
+https://raw.githubusercontent.com/wojzaremba/lstm/master/data/ptb.train.txt 
+https://raw.githubusercontent.com/wojzaremba/lstm/master/data/ptb.valid.txt 
+https://raw.githubusercontent.com/wojzaremba/lstm/master/data/ptb.test.txt
