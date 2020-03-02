@@ -1,8 +1,8 @@
 
 The data used for the text generation is:
 
-* Storylines from previous Kim Possible episodes 
-* Text from the first three Harry Potter books
+* Storylines from previous Kim Possible episodes (KP.txt)
+* Text from the first three Harry Potter books (HP.txt)
 
 The Penn Treebank data is downloaded from: 
 
