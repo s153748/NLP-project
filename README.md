@@ -1,4 +1,4 @@
-### Language Modelling Using an LSTM Neural Network
+### Natural Language Processing Project
 
 This repo consists of the project made in the class 02456 Deep Learning at DTU in the Spring 2020.
 
